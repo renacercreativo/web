@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://renacercreativo.com/wp-content/uploads/2024/07/DE4927-2.png" type="image/x-icon">
+    <title>Agencia de marketing</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="menu-pc">
+            
+            <ul>
+                <li><a href="#"class="color-primario"><img src="https://renacercreativo.com/wp-content/uploads/2024/07/Logo-3-Blanco-scaled.webp" width="100px" alt=""></a></li>
+                <li><a href="#"class="color-primario">Diseño gráfico</a></li>
+                <li><a href="#"class="color-primario">Desarrollo Web</a</li>
+                <li><a href="#"class="color-primario">Marketing</a></li>
+                <button class="boton-primario" onclick=cotizar()>Cotizar</button>
+            </ul>
+        </nav>
+        <nav class="menu-movil">
+            
+            <ul>
+                
+                <li><a href="#"class="color-primario"><img src="https://renacercreativo.com/wp-content/uploads/2024/07/Logo-3-Blanco-scaled.webp" width="100px" alt=""></a></li>
+                <button class="boton-primario" onclick=desplegar() id="des">Menù</button>
+                <button class="boton-primario" onclick=ocultar() id="ocu">Ocultar</button>
+            </ul>
+            <ul class="desplegable" id="desplegable">
+                 <li><a href="#"class="color-primario">Diseño gráfico</a></li>
+                <li><a href="#"class="color-primario">Desarrollo Web</a</li>
+                <li><a href="#"class="color-primario">Marketing</a></li>
+            </ul>
+        </nav>
+    </header>
+<main>
+    <section class="container-largo" id="container-1">
+        <h1 class="neon">Agencia de marketing y estrategia digital</h1>
+        <p>
+            impulsamos tu negocio con  soluciones integrales que 
+            maximizan tu rentabilidad y amplifican su presencia 
+            en plataformas digitales.
+        </p>
+        <div class="botones">
+            <button class="boton-primario" onclick=cotizar()>Cotizar</button>
+            <a href="#" class="boton-secundario">Ver Portafolio</a>
+        </div>
+    </section>
+    
+   
+    <section class="container-largo">
+        
+        <div class="tarjeta" id="adrian1" >
+            <div class="fondo-negro">
+                <div class="titulotarjeta">
+                <h2>Adrian Castro</h2>
+                <span>Diseñador gráfico</span>
+                </div>
+                <div class="avatar">
+                    <img src="https://renacercreativo.com/wp-content/uploads/2024/07/adrian3.png" alt="" width="220px">
+                </div>
+                <div class="flechita">
+                    <img src="https://renacercreativo.com/wp-content/uploads/2024/07/Filp_Arrows-02.webp" alt="" width="75px" onclick="girar1()">
+                </div>
+            </div>
+        </div>
+        <div class="tarjeta" id="adrian2" >
+            <div class="fondo-negro">
+                <div class="titulotarjeta">
+                    <h2>Adrian Castro</h2>
+                    <span>Diseñador gráfico</span>
+                    </div>
+                <div class="des-corta">
+                    <p>
+                        Diseñador gráfico con más de 12 años de experiencia en el 
+                        campo, combina creatividad y precisión técnica, en 
+                        proyectos que van desde branding corporativo hasta diseño 
+                        digital, gracias a su enfoque meticuloso y atención al detalle, 
+                        garantiza que cada proyecto supere las expectativas.
+                    </p>
+                </div>
+                <div class="flechita2">
+                    <img src="https://renacercreativo.com/wp-content/uploads/2024/07/Filp_Arrows-06.webp" alt="" width="75px"onclick="regresar1()">
+                    <a href="#">Ver más</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="tarjeta" id="david1">
+            <div class="fondo-negro">
+                <div class="titulotarjeta">
+                <h2>David Martínez</h2>
+                <span>Trafficker</span>
+                </div>
+                <div class="avatar">
+                    <img src="https://renacercreativo.com/wp-content/uploads/2024/07/DA1web.webp" alt="david martinez" width="220px">
+                </div>
+                <div class="flechita">
+                    <img src="https://renacercreativo.com/wp-content/uploads/2024/07/Filp_Arrows-02.webp" alt="" width="75px"onclick="girar2()">
+                </div>
+            </div>
+        </div>
+        <div class="tarjeta" id="david2">
+            <div class="fondo-negro">
+                <div class="titulotarjeta">
+                    <h2>David Martínez</h2>
+                    <span>Trafficker</span>
+                    </div>
+                <div class="des-corta">
+                    <p>
+                        Experto en marketing digital con amplia experiencia en 
+                        la gestión de campañas publicitarias en diversas plataformas 
+                        como Google Ads, Meta Ads, TikTok Ads y Traffick Factory. 
+                        Como trafficker y copywriter, se especializa en optimizar 
+                        el rendimiento de las campañas, aumentando la visibilidad y el 
+                        retorno de inversión para sus clientes.
+                    </p>
+                </div>
+                <div class="flechita2">
+                    <img src="https://renacercreativo.com/wp-content/uploads/2024/07/Filp_Arrows-06.webp" alt="" width="75px"onclick="regresar2()">
+                    <a href="#">Ver más</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="tarjeta" id="fred1">
+            <div class="fondo-negro">
+                <div class="titulotarjeta">
+                <h2>Frederick Corredor</h2>
+                <span>Desarrollador Web</span>
+                </div>
+                <div class="avatar">
+                    <img src="https://renacercreativo.com/wp-content/uploads/2024/07/F3web.webp" alt="frederick corredor" width="220px">
+                </div>
+                <div class="flechita">
+                    <img src="https://renacercreativo.com/wp-content/uploads/2024/07/Filp_Arrows-02.webp" alt="" width="75px"onclick="girar3()">
+                </div>
+            </div>
+        </div>
+        <div class="tarjeta" id="fred2">
+            <div class="fondo-negro">
+                <div class="titulotarjeta">
+                    <h2>Frederick Corredor</h2>
+                    <span>Desarrollador Web</span>
+                    </div>
+                <div class="des-corta">
+                    <p style="margin-bottom: 30px;">
+                        Desarrollador frontend con más de 6 años de experiencia,
+                        especializado en el diseño y desarrollo de páginas dinámicas, interactivas, 
+                        con rendimientos optimos y adaptalbes tanto a dispositivos moviles y ordenadores,
+                        enfocadas en brindar experiencia de usuario y posicionamiento SEO.
+                    </p>
+                </div>
+                <div class="flechita2">
+                    <img src="https://renacercreativo.com/wp-content/uploads/2024/07/Filp_Arrows-06.webp" alt="" width="75px"onclick="regresar3()">
+                    <a href="#">Ver más</a>
+                </div>
+            </div>
+        </div>
+        <p style="margin-top: 24px; margin-bottom:24px;font-size: 24px;">
+            Desarrollamos estrategias integrales para atraer, 
+            convertir y fidelizar a tus clientes a través de 
+            embudos de venta y análisis de datos.
+        </p>
+<!--
+        <div class="tarjeta"data-aos="fade-up"data-aos-duration="1000"data-aos-delay="350">
+            <div class="fondo-negro">
+                <h2>Marketing y estrategia digital</h2>
+                
+            </div>
+        </div>
+-->
+
+        <p>
+            
+        </p>
+    </section>
+    
+    <section class="container-largo">
+
+    <div class="fondo-negro2">
+        <div class="titulotarjeta">
+            <img src="" alt="">
+            <h3>Publicidad Online</h3>
+        </div>
+        <p>
+            El presupuesto adecuado, el mensaje correcto, los clientes que buscas.
+        </p>
+    </div>
+
+    <div class="fondo-negro2">
+        <div class="titulotarjeta">
+            <img src="" alt="">
+            <h3>Email Marketing</h3>
+        </div>    
+        <p>
+            Brinda la información de tu negocio, directo en su bandeja de entrada.
+        </p>
+    </div>
+
+    <div class="fondo-negro2">
+        <div class="titulotarjeta">
+            <img src="" alt="">
+            <h3>Redes Sociales</h3>
+        </div>
+        <p>
+            Llega a más clientes potenciales, transformamos conversaciones en conversiones.
+        </p>
+    </div>
+
+    <div class="fondo-negro2">
+        <div class="titulotarjeta">
+            <img src="" alt="">
+            <h3>Diseño Web</h3>
+        </div>    
+        <p>
+            Sitios web atractivos, funcionales y optimizados para la mejor experiencia del usuario.
+        </p>
+    </div>
+</section>
+
+    <section class="container-corto">
+        <div class="fondo-negro">
+                <div class="contacto">
+                    <h3 class="neon">¡ASESORIA GRATUITA!</h3>
+                    <span>Llena el siguiente formulario y dà el primer paso que necesita tu negocio</span>
+                    <div class="formulario">
+                           <?php echo do_shortcode('[contact-form-7 id="4bee351"]'); ?>
+                    </div>
+                </div>
+                
+        </div>
+           
+    </section>
+<!--
+<section class="container-corto">
+        <div class="fondo-negro">
+            <div class="barra">
+                
+                <div class="interior">
+                    <ul>
+                        <li><button class="boton3" onclick="mostrard()">Diseño gráfico</button></li>
+                        <li><button class="boton3" onclick="mostrarw()">Desarrollo Web</button></li>
+                        <li><button class="boton3" onclick="mostrarm()">Marketing</button></li>
+                    </ul>
+                    <div class="contenedor-equipo">
+                        <div id="diseño">
+                            <p>
+                                Nuestra área de desarrollo web se dedica a 
+                                construir sitios web que no solo son visualmente 
+                                atractivos, sino también funcionales y optimizados
+                                para la mejor experiencia del usuario. 
+                                Desde sitios web corporativos hasta tiendas en 
+                                línea, utilizamos tecnologías modernas para 
+                                asegurar que tu sitio sea rápido, seguro y 
+                                adaptable a todos los dispositivos.
+                            </p>
+                            <h4>Servicios específicos:</h4>
+                                <ol>
+                                    <li> Diseño y desarrollo de sitios web responsivos</li>
+                                    <li>Tiendas en línea (e-commerce)</li>
+                                    <li>Optimización para motores de búsqueda (SEO)</li>
+                                    <li>Mantenimiento y soporte web</li>
+                                    <li>Integración con sistemas de gestión de contenidos (CMS)</li>
+                                </ol>
+                        </div> 
+
+                        <div id="web">
+                            <p>
+                                Nuestra área de desarrollo web se dedica a 
+                                construir sitios web que no solo son visualmente 
+                                atractivos, sino también funcionales y optimizados
+                                para la mejor experiencia del usuario. 
+                                Desde sitios web corporativos hasta tiendas en 
+                                línea, utilizamos tecnologías modernas para 
+                                asegurar que tu sitio sea rápido, seguro y 
+                                adaptable a todos los dispositivos.
+                            </p>
+                            <h4>Servicios específicos:</h4>
+                                <ol>
+                                    <li> Diseño y desarrollo de sitios web responsivos</li>
+                                    <li>Tiendas en línea (e-commerce)</li>
+                                    <li>Optimización para motores de búsqueda (SEO)</li>
+                                    <li>Mantenimiento y soporte web</li>
+                                    <li>Integración con sistemas de gestión de contenidos (CMS)</li>
+                                </ol>
+
+                            
+                        </div> 
+                        <div id="marketing">
+                            <p>
+                                Marketing y Estrategia Digital
+                                Desarrollamos estrategias de marketing digital 
+                                que abordan todas las etapas del embudo de ventas.
+                                Utilizando herramientas avanzadas de análisis de 
+                                datos, identificamos oportunidades y creamos 
+                                campañas que impulsan el tráfico, aumentan la 
+                                conversión y mejoran la retención de clientes.
+                                Desde la creación de contenido hasta la 
+                                automatización del marketing, nuestro enfoque 
+                                integral asegura resultados sostenibles y a largo 
+                                plazo.
+                            </p>
+                            <h4>Servicios específicos:</h4>
+                            <ol>
+                                <li>Anuncios publicitarios en redes sociales y plataformas digitales</li>
+                                <li>Optimización de conversiones de campañas publicitarias</li>
+                                <li>Contratación de modelos e influencers para marcas</li>
+                                <li>Posicionamiento de servicios y productos </li>
+                                <li>Campañas de Email marketing</li>
+                            </ol>
+                        </div>
+                        
+
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+           
+    </section>
+
+-->
+<!--
+    <section class="container-corto">
+        <div class="fondo-negro">
+            
+        </div>
+    </section>-->
+</section>
+<section class="mascota">
+    <div class="dialogo" id="texto1">
+        <p>
+            ¡Hola! Bienvenido a Renacer Creativo. <br><br>
+            Mi nombre es Renacio, he sido diseñado y programado
+            como bot interactivo por el equipo de Renacer Creativo
+            con la finalidad de ayudar a que nuestros clientes
+            obtengan un sitio web interactivo que mejore la experiencia 
+            de sus visitantes y ayudarles a encontrar lo que buscan.
+        </p>
+        <div class="formulario">
+            <p>Dime cómo te llamas</p><br>
+            <input type="text" id="nombre">
+            <button onclick="saludar()">Continuar</button>
+        </div>
+    </div>
+    
+    <div class="dialogo2" id="texto2" style="display: none;">
+        <p id="parrafo2"></p>
+        <div>
+            Ofrecemos una variedad de servicios para ayudarte a crecer tu negocio. <br>
+            Por favor, elige el servicio sobre el que deseas saber más:
+            <div>
+                <button onclick="siguiente('marketin1')">Marketing Digital</button>
+                <button onclick="siguiente('desarrollo1')">Desarrollo Web</button>
+                <button onclick="siguiente('diseno1')">Diseño Gráfico</button>
+                <button onclick="siguiente('chatbot1')">Servicios de Chatbot</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="dialogo2" id="marketin1" style="display: none;">
+        
+        <div>
+            El marketing digital es crucial para aumentar la visibilidad y el alcance de tu negocio.<br> 
+            ¿Qué te gustaría saber?
+            <div>
+                <button onclick="siguiente('marketin1a')">Estrategias de Marketing Digital</button>
+                <button onclick="siguiente('marketin1b')">Publicidad en Redes Sociales</button>
+                <button onclick="siguiente('marketin1c')">SEO (Optimización en Motores de Búsqueda)</button>
+                <button onclick="siguiente('marketin1d')">Email Marketing</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="dialogo2" id="marketin1a" style="display: none;">
+        
+        <div>
+            Ofrecemos estrategias personalizadas de marketing digital que incluyen análisis de mercado, 
+            planificación de campañas, y ejecución. <br>
+            ¿Te gustaría una consulta gratuita?
+            <div>
+                <button onclick="formulario('marketin1a')">Obtener consulta gratuita</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="dialogo2" id="marketin1b" style="display: none;">
+        
+        <div>
+            Podemos gestionar campañas de publicidad en plataformas como Facebook, Instagram, y TikTok
+            para aumentar tu visibilidad y atraer más clientes. <br>
+            ¿Te gustaría saber más sobre nuestros planes?
+            <div>
+                <button onclick="formulario('marketin1b')">Obtener consulta gratuita</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="dialogo2" id="marketin1c" style="display: none;">
+        
+        <div>
+            El SEO es esencial para mejorar el posicionamiento de tu sitio web en los motores de búsqueda. 
+            Ofrecemos servicios de auditoría SEO, optimización de contenido, y más. <br>
+            ¿Te gustaría una auditoría?
+            <div>
+                <button onclick="formulario('marketin1c')">Obtener consulta gratuita</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="dialogo2" id="marketin1d" style="display: none;">
+        
+        <div>
+            El email marketing es una herramienta poderosa para mantenerte en contacto con tus clientes 
+            y aumentar tus ventas. Podemos crear y gestionar campañas de email marketing efectivas.<br> 
+            ¿Te gustaría una demostración?
+            <div>
+                <button onclick="formulario('marketin1d')">Obtener demostración</button>
+            </div>
+        </div>
+    </div>
+
+    <!--DIALOGO DESARROLLO-->
+
+    <div class="dialogo2" id="desarrollo1" style="display: none;">
+        
+        <div>
+            "Desarrollamos sitios web personalizados que se adaptan a las necesidades de tu negocio.<br> 
+            ¿Qué te gustaría saber?
+            <div>
+                <button onclick="siguiente('desarrollo1a')">Diseño y Desarrollo de Sitios Web.</button>
+                <button onclick="siguiente('desarrollo1b')">Tiendas en Línea (E-commerce).</button>
+                <button onclick="siguiente('desarrollo1c')">SEO (Optimización en Motores de Búsqueda)</button>
+                <button onclick="siguiente('desarrollo1d')">Mantenimiento y Actualización de Sitios Web.</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="dialogo2" id="desarrollo1a" style="display: none;">
+        
+        <div>
+            Creamos sitios web modernos y funcionales que se adaptan a cualquier dispositivo. <br>
+            ¿Te gustaría ver algunos de nuestros proyectos anteriores?
+            <div>
+                <button onclick="formulario('desarrollo1a')">Obtener consulta gratuita</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="dialogo2" id="desarrollo1b" style="display: none;">
+        
+        <div>
+            Podemos desarrollar una tienda en línea personalizada para tu negocio, 
+            incluyendo integración de pasarelas de pago y gestión de inventarios.<br> 
+            ¿Te gustaría una cotización?"
+
+            <div>
+                <button onclick="formulario('desarrollo1b')">Obtener consulta gratuita</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="dialogo2" id="desarrollo1c" style="display: none;">
+        
+        <div>
+            El SEO es esencial para mejorar el posicionamiento de tu sitio web en los motores de búsqueda. 
+            Ofrecemos servicios de auditoría SEO, optimización de contenido, y más. <br>
+            ¿Te gustaría una auditoría?
+            <div>
+                <button onclick="formulario('desarrollo1c')">Obtener consulta gratuita</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="dialogo2" id="desarrollo1d" style="display: none;">
+        
+        <div>
+            Ofrecemos planes de mantenimiento y actualización para asegurar que tu sitio web 
+            siempre esté funcionando perfectamente y actualizado. <br>
+            ¿Te gustaría más información sobre nuestros planes?"
+
+            <div>
+                <button onclick="formulario('desarrollo1d')">Obtener demostración</button>
+            </div>
+        </div>
+    </div>
+
+    <!--dialogo diseño grafico-->
+    <div class="dialogo2" id="diseno1" style="display: none;">
+        
+        <div>
+            Nuestro equipo de diseño gráfico puede crear una identidad visual única para tu marca.<br> 
+            ¿Qué te gustaría saber?
+            <div>
+                <button onclick="siguiente('diseno1a')">Diseño de Logotipos.</button>
+                <button onclick="siguiente('diseno1b')">Material de Marketing (flyers, brochures, etc.)</button>
+                <button onclick="siguiente('diseno1c')">Diseño para Redes Sociales.</button>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="dialogo2" id="diseno1a" style="display: none;">
+        
+        <div>
+            Diseñamos logotipos que representan la esencia de tu marca.  <br>
+            ¿Te gustaría ver algunos de nuestros diseños?
+            <div>
+                <button onclick="formulario('diseno1a')">Ver diseños</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="dialogo2" id="diseno1b" style="display: none;">
+        
+        <div>
+            "Creamos materiales de marketing impactantes que ayudan a comunicar tu mensaje de manera efectiva<br> 
+            ¿Te gustaría un presupuesto?"
+
+            <div>
+                <button onclick="formulario('diseno1b')">Obtener presupuesto</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="dialogo2" id="diseno1c" style="display: none;">
+        
+        <div>
+            Podemos diseñar contenido visual atractivo para tus redes sociales que aumente la interacción con tu audiencia. <br>
+            ¿Te gustaría más información sobre nuestros planes?
+            <div>
+                <button onclick="formulario('diseno1c')">Ver planes</button>
+            </div>
+        </div>
+    </div>
+
+     <!--chatbot-->
+     <div class="dialogo2" id="chatbot1" style="display: none;">
+        
+        <div>
+            Nuestro equipo de diseño gráfico puede crear una identidad visual única para tu marca.<br> 
+            ¿Qué te gustaría saber?
+            <div>
+                <button onclick="siguiente('chatbot1a')">Beneficios de un Chatbot</button>
+                <button onclick="siguiente('chatbot1b')">Ejemplos de Chatbots Desarrollados</button>
+                <button onclick="siguiente('chatbot1c')">Proceso de Desarrollo de Chatbots</button>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="dialogo2" id="chatbot1a" style="display: none;">
+        
+        <div>
+            Los chatbots pueden atender a tus clientes 24/7, mejorar la experiencia del usuario 
+            y aumentar la eficiencia operativa. <br>
+            ¿Te gustaría una consulta para saber cómo un chatbot puede beneficiar a tu negocio?
+            <div>
+                <button onclick="formulario('chatbot1a')">Obtener consulta gratuita</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="dialogo2" id="chatbot1b" style="display: none;">
+        
+        <div>
+            Hemos desarrollado chatbots para diversas industrias.<br> 
+            ¿Te gustaría ver algunos ejemplos de nuestro trabajo
+
+            <div>
+                <button onclick="formulario('chatbot1b')">Ver diseños</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="dialogo2" id="chatbot1c" style="display: none;">
+        
+        <div>
+            Nuestro proceso de desarrollo de chatbots incluye análisis de requerimientos, 
+            diseño de conversación, desarrollo e implementación. <br>
+            ¿Te gustaría una reunión para discutir tus necesidades?
+            <div>
+                <button onclick="formulario('chatbot1c')">Solicitar información</button>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+</main>
+<script src="script.js"></script>
+</body>
+</html>
